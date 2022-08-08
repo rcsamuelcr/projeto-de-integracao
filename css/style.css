@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    background-image: linear-gradient(to top, rgb(61, 59, 59), rgb(99, 95, 95));
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 50px;
+}
+
+a{  
+    font-size: 1.2em;
+    color: white;
+}
+
+a:hover{
+    color: rgb(148, 50, 205);
+    transition: 0.5s all;
+}
+
+#inscreva-se{
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#inscreva-se:hover{
+    background-image: linear-gradient(15deg, rgb(152, 75, 197), rgb(138, 38, 196), rgb(132, 14, 201));
+    color: white;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h1{
+    font-size: 56px;
+    text-shadow: 1px 2px 7px rgba(0, 0, 0, 0.598);
+    color:white;
+}
+
+h2{
+    font-size: 60px;
+    font-weight: 900;
+    text-shadow: 2px 1px 8px #2d2a2a98;
+    color: rgb(140, 43, 197);
+}
+
+p{
+    margin: 20px 0px;
+    line-height: 20px;
+    max-width: 500px;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+form [type= "submit"]{
+    height: 50px;
+    width: 50%;
+    font-weight: bold;
+    background-image: linear-gradient(15deg, rgb(155, 82, 198), rgb(138, 38, 196), rgb(132, 14, 201));
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.732);
+    color: white;
+}
+
+form [type= "submit"]:hover{
+    cursor: pointer;
+    transform: translate(-3px, -3px);
+    background-image: linear-gradient(-75deg, rgb(152, 75, 197), rgb(138, 38, 196), rgb(132, 14, 201));
+    border: 3px solid rgba(255, 255, 255, 0.886);
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.963);
+    transition: transform 1s, border 0.5s;
+}
+
+img{
+    width: 590px; 
+}
