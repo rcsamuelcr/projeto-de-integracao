@@ -4,8 +4,8 @@
     }
 
     main{
-        width: 100%;
-        padding: 20px;
+        width: 90%;
+        padding: 10px;
         flex-direction: column;
         text-align: center;
     }
@@ -26,6 +26,7 @@
 
     p{
         width: 80vh;
+        padding-left: 10px;
     }
 
     form{
