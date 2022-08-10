@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <title>Landing Page</title>
+
+    <script type="text/javascript">
+        function abrir(){
+            document.getElementById('modal').style.display = 'block';
+        }
+        function fechar() {
+            document.getElementById('modal').style.display = 'none';
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -19,7 +28,7 @@
             <a href="#"><li>Serviços</li></a>
             <a href="#"><li>Sobre</li></a>
             <a href="#"><li>Contato</li></a>
-            <a href="#modal" id="inscreva-se"><li>Inscreva-se</li></a>
+            <a href="javascript: abrir();" id="inscreva-se"><li>Inscreva-se</li></a>
         </ul>
     </header>
     <main>
@@ -45,6 +54,7 @@
         <form action="php/cadastro.php" method="POST" autocomplete="off" id="form-cadastro">
             <fieldset>
                 <legend><h1>Cadastro</h1></legend>
+                <a href="javascript: fechar();" class="fechar">x</a>
                 <input type="text"   class="input-cadastro" name="nome"      placeholder="Nome">
                 <input type="text"   class="input-cadastro" name="sobrenome" placeholder="Sobrenome">
                 <input type="text"   class="input-cadastro" name="senha"     placeholder="Senha">
