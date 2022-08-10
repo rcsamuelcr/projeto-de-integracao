@@ -4,7 +4,7 @@
     }
 
     main{
-        padding: 20px;
+        width: 100vw;
         flex-direction: column;
         text-align: center;
     }
@@ -39,8 +39,12 @@
         text-align: center;
     }
 
+    li{
+        margin: 15px;
+    }
+
     .modal{
-        width: 100vw;
+        width: 100%;
     }
 
     fieldset{
