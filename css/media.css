@@ -3,12 +3,9 @@
         margin: 0px;
         padding: 0px;
     }
-    
-    body{
-        overflow-x: hidden;
-    }
 
     header{
+        width: 95vw;
         flex-direction: column;
     }
 
@@ -32,11 +29,13 @@
     }
 
     main{
+        width: 95vw;
         flex-direction: column;
     }
 
     aside{
-        width: 95vw;
+        width: 95vw;    
+        height: 50vh;
         flex-direction: column;
     }
 
