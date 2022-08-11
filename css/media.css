@@ -4,6 +4,11 @@
         padding: 0px;
     }
 
+    body{
+        width: 95vw;
+        height: auto;
+    }
+
     header{
         width: 95vw;
         flex-direction: column;
@@ -50,7 +55,7 @@
     }
     
     p{
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
     
     input{
@@ -64,18 +69,18 @@
         flex-direction: column;
     }
 
-    img{
-        width: 59vh; 
-        align-self: center;
-    }
-
     article{
         width: 95vw;
         display: flex;
         place-content: center;
         flex-direction: column;
     }
-    /*
+
+    img{
+        width: 50vh; 
+        align-self: center;
+    }
+
     .modal{
         width: 100%;
     }
@@ -113,8 +118,8 @@
         background-color: rgb(255, 255, 255);
         margin-bottom: -50px;
         position: absolute;
-        top: 30px;
-        right: 100px;
+        top: 15px;
+        right: 70px;
     }
 
     .fechar:hover{
@@ -122,5 +127,5 @@
         box-shadow: 0px 0px 0px 3px white;
         transition: .5s;
     }
-    */
+
 }
