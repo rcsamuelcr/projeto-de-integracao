@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="css/media.css">
     <title>Landing Page</title>
 
@@ -24,19 +24,21 @@
             <h1>Criativo</h1>
         </div>
         <ul>
-            <a href="#"><li>Inicio</li></a>
-            <a href="#"><li>Serviços</li></a>
-            <a href="#"><li>Sobre</li></a>
-            <a href="#"><li>Contato</li></a>
-            <a href="javascript: abrir();" id="inscreva-se"><li>Inscreva-se</li></a>
+            <a href="#">Inicio</a>
+            <a href="#">Serviços</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+            <a href="javascript: abrir();" id="inscreva-se">Inscreva-se</a>
         </ul>
     </header>
     <main>
         <aside>
-            <h2>Inscreva-se agora</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, quisquam eveniet obcaecati reprehenderit nemo fuga sint enim, corporis omnis illum nulla iste minima maiores, ea officiis ratione! Quisquam, molestiae rem?
-            </p>
+            <section>
+                <h2>Inscreva-se agora</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, quisquam eveniet obcaecati reprehenderit nemo fuga sint enim, corporis omnis illum nulla iste minima maiores, ea officiis ratione! Quisquam, molestiae rem?
+                </p>
+            </section>
             <form action="php/conn.php" method="POST" autocomplete="off">
                 <input type="text"      name="nome"     placeholder="Nome">
                 <input type="email"     name="email"    placeholder="E-mail">
@@ -50,18 +52,5 @@
 
 
 
-    <div id="modal" class="modal">
-        <form action="php/cadastro.php" method="POST" autocomplete="off" id="form-cadastro">
-            <fieldset>
-                <legend><h1>Cadastro</h1></legend>
-                <a href="javascript: fechar();" class="fechar">x</a>
-                <input type="text"   class="input-cadastro" name="nome"      placeholder="Nome">
-                <input type="text"   class="input-cadastro" name="sobrenome" placeholder="Sobrenome">
-                <input type="text"   class="input-cadastro" name="senha"     placeholder="Senha">
-                <input type="email"  class="input-cadastro" name="email"     placeholder="E-mail">
-                <input type="submit" id="bnt-cadastrar"     name="submit"    value      ="Enviar">
-            </fieldset>
-        </form>
-    </div>
 </body>
 </html>

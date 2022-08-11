@@ -10,16 +10,15 @@ body{
     margin: 0 auto;
     min-height: 100vh;
     display: grid;
-    place-content: center;
+    justify-content: center;
     background-image: linear-gradient(to top, rgb(61, 59, 59), rgb(99, 95, 95));
-    background-attachment: fixed;
 }
 
 header{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    border-bottom: 4px solid  rgb(140, 134, 134);
 }
 
 #title{
@@ -34,7 +33,7 @@ header > ul > a{
 }
 
 header > ul > a:hover{
-    color: rgb(148, 50, 205);
+    color: rgb(174, 119, 206);
     transition: 0.5s all;
 }
 
@@ -55,6 +54,7 @@ li{
 }
 
 main{
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
     margin-top: 50px;
