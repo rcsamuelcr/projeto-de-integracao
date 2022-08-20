@@ -1,5 +1,28 @@
 @charset "UTF-8";
 
+@keyframes btn-animation{
+    0%{
+        transform: translatey(0px);
+        box-shadow: 0px 0px 0px grey;
+    }
+    25%{
+        transform: translatey(-20px);
+        box-shadow: 0px 20px 0px grey;
+    }
+    50%{
+        transform: translatey(20px);
+        box-shadow: 0px -20px 0px grey;
+    } 
+    100%{
+        transform: translatey(0px);
+        box-shadow: 0px 0px 0px grey;
+    }
+}
+
+#btn:hover{
+    animation: btn-animation 1s linear reverse;
+}   
+
 *{
     margin: 0px;
     padding: 0px;
@@ -134,6 +157,11 @@ article{
     display: flex;
     justify-content: right  ;
     flex-direction: column;
+    animation: img-animation ease-in-out infinite;
+}
+
+#img{
+    animation: img-animation ease-in-out infinite;
 }
 
 /* ----- modal cadastro ------*/
